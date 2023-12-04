@@ -14,7 +14,7 @@ export const Titulo = styled.h3`
   font-size: 18px;
   font-weight: bold;
   display: block;
-  margin-top: 8px;
+  margin-top: 10px;
   margin-bottom: 16px;
   color: ${cores.rosaEscuro};
   padding: 0 8px;
@@ -35,8 +35,13 @@ export const Infos = styled.div`
 export const Rating = styled.p`
   position: absolute;
   top: 230px;
-  left: 420px;
-  display: block;
+  left: 412px;
+  display: flex;
   color: ${cores.rosaEscuro};
   font-weight: bold;
+  align-items: center;
+
+  div {
+    margin-left: 8px;
+  }
 `

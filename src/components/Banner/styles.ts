@@ -12,9 +12,10 @@ export const Imagem = styled.div`
 
   a {
     display: block;
-    padding-left: 605px;
     padding-top: 40px;
     align-items: center;
+    width: 130px;
+    margin: 0 auto;
   }
 `
 
